@@ -21,5 +21,14 @@ router.get('/', function(req, res, next) {
  .catch(console.error);
 });
 
+router.get('/search/:id', function(req, res, next) {
+  const id = req.params.id
+  youtube.search(id)
+   .then(results => {
+     res.json(results)
+   })
+ .catch(console.error);
+});
+
 
 module.exports = router;

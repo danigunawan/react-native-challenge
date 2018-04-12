@@ -27,6 +27,7 @@ function WatchVideoCard(props) {
           <Text> { item.duration.hours + item.duration.minutes} </Text>
         </CardContent>
       </Card>
+        
     </View>
   );
 }
