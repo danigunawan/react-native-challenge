@@ -14,11 +14,13 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 
 
-class Detail extends Component {
+export class Detail extends Component {
 
- static navigationOptions = {
-    title: 'Watch Video',
-  };
+  static navigationOptions = () => {
+    return {
+      title: 'Watch Video',
+    }
+  } 
 
   componentDidMount () {
     const { params } = this.props.navigation.state;
@@ -44,7 +46,7 @@ class Detail extends Component {
 }
 
 
-const mapStateToProps = (state) => {
+export const mapStateToProps = (state) => {
   return {
     redux: state
   }

@@ -8,12 +8,8 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import SearchForm from '../components/SearchForm'
 
-class Home extends Component {
+export class Home extends Component {
 
-  state = {
-    nav: null,
-    text: ''
-  }
 
   static navigationOptions = () => {
     
@@ -24,7 +20,6 @@ class Home extends Component {
 
   componentDidMount () {
     
-    this.setState({nav: this.props.navigation})
     this.props.getVideos()
   }
   _renderItem = ({item}) => <VideoCard item={item} navigation={this.props.navigation} />
@@ -53,7 +48,7 @@ class Home extends Component {
   }
 }
 
-const mapStateToProps = (state) => {
+export const mapStateToProps = (state) => {
   return {
     redux: state
   }

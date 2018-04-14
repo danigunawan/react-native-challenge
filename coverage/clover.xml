@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1523698804915" clover="3.2.0">
+  <project timestamp="1523698804915" name="All files">
+    <metrics statements="44" coveredstatements="44" conditionals="12" coveredconditionals="12" methods="25" coveredmethods="21" elements="81" coveredelements="77" complexity="0" loc="44" ncloc="44" packages="2" files="6" classes="6">
+      <package name="components">
+        <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="11" coveredmethods="10"/>
+        <file name="Loading.js" path="/Users/mac/hacktiv8/phase3/week2/react-native-challenge/components/Loading.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="12" count="4" type="stmt"/>
+        </file>
+        <file name="SearchForm.js" path="/Users/mac/hacktiv8/phase3/week2/react-native-challenge/components/SearchForm.js">
+          <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="5"/>
+          <line num="12" count="5" type="stmt"/>
+          <line num="16" count="10" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="35" count="1" type="stmt"/>
+          <line num="36" count="1" type="stmt"/>
+          <line num="45" count="3" type="stmt"/>
+        </file>
+        <file name="VideoCard.js" path="/Users/mac/hacktiv8/phase3/week2/react-native-challenge/components/VideoCard.js">
+          <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+          <line num="13" count="3" type="stmt"/>
+          <line num="14" count="3" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
+        </file>
+        <file name="WatchVideoCard.js" path="/Users/mac/hacktiv8/phase3/week2/react-native-challenge/components/WatchVideoCard.js">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="35" count="3" type="stmt"/>
+        </file>
+      </package>
+      <package name="pages">
+        <metrics statements="28" coveredstatements="28" conditionals="10" coveredconditionals="10" methods="14" coveredmethods="11"/>
+        <file name="Detail.js" path="/Users/mac/hacktiv8/phase3/week2/react-native-challenge/pages/Detail.js">
+          <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="4"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="26" count="3" type="stmt"/>
+          <line num="27" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="28" count="3" type="stmt"/>
+          <line num="32" count="3" type="stmt"/>
+          <line num="33" count="3" type="stmt"/>
+          <line num="34" count="3" type="stmt"/>
+          <line num="35" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="37" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="38" count="1" type="stmt"/>
+          <line num="40" count="2" type="stmt"/>
+          <line num="49" count="2" type="stmt"/>
+          <line num="50" count="1" type="stmt"/>
+          <line num="54" count="2" type="stmt"/>
+        </file>
+        <file name="Home.js" path="/Users/mac/hacktiv8/phase3/week2/react-native-challenge/pages/Home.js">
+          <metrics statements="14" coveredstatements="14" conditionals="4" coveredconditionals="4" methods="9" coveredmethods="7"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="23" count="4" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+          <line num="28" count="4" type="stmt"/>
+          <line num="29" count="4" type="stmt"/>
+          <line num="30" count="4" type="stmt"/>
+          <line num="31" count="4" type="cond" truecount="2" falsecount="0"/>
+          <line num="32" count="1" type="stmt"/>
+          <line num="34" count="4" type="cond" truecount="2" falsecount="0"/>
+          <line num="35" count="1" type="stmt"/>
+          <line num="37" count="3" type="stmt"/>
+          <line num="51" count="2" type="stmt"/>
+          <line num="52" count="1" type="stmt"/>
+          <line num="56" count="2" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

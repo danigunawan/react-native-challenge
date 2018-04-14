@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import { searchVideos, clearSearch } from '../store/actions'
 import { bindActionCreators } from 'redux'
 
-class SearchForm extends Component {
+export class SearchForm extends Component {
   state = {
     text: ''
   }
@@ -24,7 +24,7 @@ class SearchForm extends Component {
         <Button
           title="Search"
           style={ {borderColor: 'black', borderWidth: 1 }}
-          onPress={() => { this.props.searchVideos(this.state.text) }}
+          onPress={() => this.props.searchVideos(this.state.text) }
         />
         {
           this.state.text &&

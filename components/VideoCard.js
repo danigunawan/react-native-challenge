@@ -15,13 +15,12 @@ function VideoCard(props) {
     <View>
       <TouchableHighlight onPress={() => props.navigation.navigate('Detail', {id: item.id})}>
       <Card style={{ borderRadius: 10 }}>
-        <Image source={{ uri: item.thumbnails.medium.url ? item.thumbnails.medium.url : '' }} style={{ width: '100%', height: 100 }} />
+        <Image source={{ uri: item.thumbnails.medium.url  }} style={{ width: '100%', height: 100 }} />
         <CardTitle >
           <Text style={{ fontSize: 18 }}> { item.title } </Text>
         </CardTitle>
         <CardContent>
-          <Text> { item.channel.title ? item.channel.title : '' } </Text>
-
+          <Text> { item.channel.title  } </Text>
         </CardContent>
         <CardAction >
           <Button title="Watch" onPress={ () => props.navigation.navigate('Detail', {id: item.id}) } />
